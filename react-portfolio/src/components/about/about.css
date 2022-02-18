@@ -1,0 +1,89 @@
+.abt{
+    height: 100vh;
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  }
+  .a-left{
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      height: 100%;
+      font-family: 'Poppins', sans-serif;
+  }
+  .a-right{
+      flex: 1;
+      font-family: 'Poppins', sans-serif;
+  }
+  .a-card{
+      width: 60%;
+      height: 70vh;
+      border-radius: 30px;
+      position: relative;
+      overflow: hidden;
+  }
+  .a-card.bg{
+      position: absolute;
+      top: 50px;
+      left: 50px;
+      background: #333;
+
+  }
+  .a-img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+  }
+  .my-anime-img{
+      width: 150px;
+      height: 150px;
+      border-radius: 20px;
+  }
+  .a-title{
+      font-weight: 500;
+  }
+  .a-sub{
+      margin: 20px 0px;
+  }
+  .a-desc{
+      font-weight: 500;
+  }
+  .my-anime{
+      margin-top: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .my-anime-texts{
+      width: 70%;
+  }
+  .my-anime-title{
+      font-weight: bolder;
+      color: #555;
+     
+  }
+
+
+
+
+
+
+  @media screen and (max-width:780px) {
+      .abt{
+          flex-direction: column;
+          text-align: center;
+          margin-top: 50px;
+
+      }
+      .a-left{
+          width: 100%;
+      }
+      .a-card{
+          height: 40vh;
+      }
+      .a-right{
+          padding: 20px;
+      }
+  }
